@@ -1,1 +1,2 @@
-#This repository is for practisig JavaScript
+#JavaScript
+This repository is for practisig JavaScript
