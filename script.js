@@ -1,5 +1,21 @@
-let pizzaPrice = 50;
-let toppingPrize = 10;
-let numberOfToppings = 10;
-let pizzaCost = pizzaPrice + (toppingPrize * numberOfToppings)
-window.alert ('You ordered a pizza with ' + numberOfToppings + ' toppings at $'+ toppingPrize + ' each. The total cost is $' + pizzaCost);
+(function () {
+let result, yes = true, no = false
+
+result = yes && yes
+console.log('Are both true?' + result)
+
+result = yes && no
+console.log('Are both still true?' + result)
+
+result = yes || no
+console.log ('Are either true?' + result)
+
+result = no || no
+console.log ('Are either still true?' + result)
+
+console.log ('Original value:' + yes)
+yes = !yes
+console.log('Toggled value' + yes)
+}
+)
+()
